@@ -12,7 +12,7 @@ Recent work on a numerical bug class in GRPO advantage computation: reward group
 
 And in Triton's interpreter, a fix for NaN/Inf conversions: FP8 special codes decode as Inf/NaN instead of finite numbers, and RTZ downcasts no longer turn small-payload NaNs into infinities:
 
-[![Triton PR #12488](https://img.shields.io/badge/Triton-PR%20%2312488-2ea44f?style=flat-square&logo=github)](https://github.com/triton-lang/triton/pull/12488) [![Triton PR #12489](https://img.shields.io/badge/Triton-PR%20%2312489-2ea44f?style=flat-square&logo=github)](https://github.com/triton-lang/triton/pull/12489)
+[![Triton PR #12489](https://img.shields.io/badge/Triton-PR%20%2312489-2ea44f?style=flat-square&logo=github)](https://github.com/triton-lang/triton/pull/12489)
 
 ## Selected projects
 
