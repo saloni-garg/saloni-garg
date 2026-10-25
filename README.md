@@ -10,9 +10,9 @@ Recent work on a numerical bug class in GRPO advantage computation: reward group
 
 [![OpenEnv PR%20%231477](https://img.shields.io/badge/OpenEnv-PR%20%231477-2ea44f?style=flat-square&logo=github)](https://github.com/openenv/OpenEnv/pull/1477) [![verl PR%20%238349](https://img.shields.io/badge/verl-PR%20%238349-2ea44f?style=flat-square&logo=github)](https://github.com/verl-project/verl/pull/8349) [![slime PR%20%232494](https://img.shields.io/badge/slime-PR%20%232494-2ea44f?style=flat-square&logo=github)](https://github.com/THUDM/slime/pull/2494) [![SkyRL PR%20%232531](https://img.shields.io/badge/SkyRL-PR%20%232531-2ea44f?style=flat-square&logo=github)](https://github.com/NovaSky-AI/SkyRL/pull/2531) [![OpenRLHF PR%20%231383](https://img.shields.io/badge/OpenRLHF-PR%20%231383-2ea44f?style=flat-square&logo=github)](https://github.com/OpenRLHF/OpenRLHF/pull/1383) [![EasyR1 PR%20%2311020](https://img.shields.io/badge/EasyR1-PR%20%2311020-2ea44f?style=flat-square&logo=github)](https://github.com/hiyouga/EasyR1/pull/11020)
 
-And in Triton's interpreter, a fix for FP8 casts so they saturate on overflow and decode the Inf/NaN encodings the way compiled code does:
+And in Triton's interpreter, two fixes: FP8 casts that saturate on overflow and decode the Inf/NaN encodings the way compiled code does, and RTZ downcasts that no longer turn small-payload NaNs into infinities:
 
-[![Triton PR #12488](https://img.shields.io/badge/Triton-PR%20%2312488-2ea44f?style=flat-square&logo=github)](https://github.com/triton-lang/triton/pull/12488)
+[![Triton PR #12488](https://img.shields.io/badge/Triton-PR%20%2312488-2ea44f?style=flat-square&logo=github)](https://github.com/triton-lang/triton/pull/12488) [![Triton PR #12489](https://img.shields.io/badge/Triton-PR%20%2312489-2ea44f?style=flat-square&logo=github)](https://github.com/triton-lang/triton/pull/12489)
 
 ## Selected projects
 
