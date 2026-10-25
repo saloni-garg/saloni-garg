@@ -1,6 +1,6 @@
 # Saloni Garg
 
-Senior Machine Learning Engineer at Adobe (Firefly team), San Jose, CA. I work on GPU-accelerated AI systems, post-training, and large-scale generative models.
+Staff Machine Learning Engineer at Adobe (Firefly), San Jose, CA. I work on GPU-accelerated AI systems, post-training, and large-scale generative models.
 
 [Website](https://saloni-garg.github.io/) · [LinkedIn](https://www.linkedin.com/in/saloni-garg)
 
