@@ -14,6 +14,10 @@ And in Triton's interpreter, a fix for NaN/Inf conversions: FP8 special codes de
 
 [![Triton PR #12489](https://img.shields.io/badge/Triton-PR%20%2312489-2ea44f?style=flat-square&logo=github)](https://github.com/triton-lang/triton/pull/12489)
 
+And in TorchTPU's dynamic view decomposition, two fixes: a strided view can no longer be given a base larger than its storage, and 0-d views with a storage offset no longer crash with an IndexError:
+
+[![TorchTPU PR #5846](https://img.shields.io/badge/TorchTPU-PR%20%235846-2ea44f?style=flat-square&logo=github)](https://github.com/google-pytorch/torch_tpu/pull/5846) [![TorchTPU PR #5847](https://img.shields.io/badge/TorchTPU-PR%20%235847-2ea44f?style=flat-square&logo=github)](https://github.com/google-pytorch/torch_tpu/pull/5847)
+
 ## Selected projects
 
 - gpu-train-debug: an RL environment for GPU training failure diagnosis, published on the Prime Intellect Hub in the Verifiers format. Dataset on [Hugging Face](https://huggingface.co/datasets/sluuu/gpu-train-debug).
