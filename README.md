@@ -14,6 +14,14 @@ And in Triton's interpreter, a fix for NaN/Inf conversions: FP8 special codes de
 
 [![Triton PR #12489](https://img.shields.io/badge/Triton-PR%20%2312489-2ea44f?style=flat-square&logo=github)](https://github.com/triton-lang/triton/pull/12489)
 
+In OpenAI's repos, a human-eval fix so a completion ending in a decorator can no longer replace the test's check function, and a chatkit-python fix so ListView works as a nested widget component:
+
+[![HumanEval PR%20%2372](https://img.shields.io/badge/HumanEval-PR%20%2372-2ea44f?style=flat-square&logo=github)](https://github.com/openai/human-eval/pull/72) [![ChatKit PR%20%23137](https://img.shields.io/badge/ChatKit-PR%20%23137-2ea44f?style=flat-square&logo=github)](https://github.com/openai/chatkit-python/pull/137)
+
+In Anthropic's buffa, two descriptor fixes: type names without a leading dot resolve against the enclosing scope, and editions files with an unsupported edition are rejected instead of silently linking with 2023 defaults:
+
+[![Buffa PR%20%23797](https://img.shields.io/badge/Buffa-PR%20%23797-2ea44f?style=flat-square&logo=github)](https://github.com/anthropics/buffa/pull/797) [![Buffa PR%20%23798](https://img.shields.io/badge/Buffa-PR%20%23798-2ea44f?style=flat-square&logo=github)](https://github.com/anthropics/buffa/pull/798)
+
 And in TorchTPU's dynamic view decomposition, two fixes: a strided view can no longer be given a base larger than its storage, and 0-d views with a storage offset no longer crash with an IndexError:
 
 [![TorchTPU PR #5846](https://img.shields.io/badge/TorchTPU-PR%20%235846-2ea44f?style=flat-square&logo=github)](https://github.com/google-pytorch/torch_tpu/pull/5846) [![TorchTPU PR #5847](https://img.shields.io/badge/TorchTPU-PR%20%235847-2ea44f?style=flat-square&logo=github)](https://github.com/google-pytorch/torch_tpu/pull/5847)
