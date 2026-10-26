@@ -14,9 +14,9 @@ And in Triton's interpreter, a fix for NaN/Inf conversions: FP8 special codes de
 
 [![Triton PR #12489](https://img.shields.io/badge/Triton-PR%20%2312489-2ea44f?style=flat-square&logo=github)](https://github.com/triton-lang/triton/pull/12489)
 
-In OpenAI's repos, a human-eval fix so a completion ending in a decorator can no longer replace the test's check function, and a chatkit-python fix so ListView works as a nested widget component:
+In OpenAI's repos, a human-eval fix so a completion ending in a decorator can no longer replace the test's check function:
 
-[![HumanEval PR%20%2372](https://img.shields.io/badge/HumanEval-PR%20%2372-2ea44f?style=flat-square&logo=github)](https://github.com/openai/human-eval/pull/72) [![ChatKit PR%20%23137](https://img.shields.io/badge/ChatKit-PR%20%23137-2ea44f?style=flat-square&logo=github)](https://github.com/openai/chatkit-python/pull/137)
+[![HumanEval PR%20%2372](https://img.shields.io/badge/HumanEval-PR%20%2372-2ea44f?style=flat-square&logo=github)](https://github.com/openai/human-eval/pull/72)
 
 In Anthropic's buffa, two descriptor fixes: type names without a leading dot resolve against the enclosing scope, and editions files with an unsupported edition are rejected instead of silently linking with 2023 defaults:
 
