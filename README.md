@@ -18,9 +18,9 @@ In OpenAI's repos, a human-eval fix so a completion ending in a decorator can no
 
 [![HumanEval PR%20%2372](https://img.shields.io/badge/HumanEval-PR%20%2372-2ea44f?style=flat-square&logo=github)](https://github.com/openai/human-eval/pull/72)
 
-In Anthropic's buffa, two descriptor fixes: type names without a leading dot resolve against the enclosing scope, and editions files with an unsupported edition are rejected instead of silently linking with 2023 defaults:
+In Anthropic's jacobian-lens, a fix so saving a fitted lens raises a clear error instead of silently writing infinities when the storage dtype overflows:
 
-[![Buffa PR%20%23797](https://img.shields.io/badge/Buffa-PR%20%23797-2ea44f?style=flat-square&logo=github)](https://github.com/anthropics/buffa/pull/797) [![Buffa PR%20%23798](https://img.shields.io/badge/Buffa-PR%20%23798-2ea44f?style=flat-square&logo=github)](https://github.com/anthropics/buffa/pull/798)
+[![JacobianLens PR%20%2321](https://img.shields.io/badge/JacobianLens-PR%20%2321-2ea44f?style=flat-square&logo=github)](https://github.com/anthropics/jacobian-lens/pull/21)
 
 And in TorchTPU's dynamic view decomposition, two fixes: a strided view can no longer be given a base larger than its storage, and 0-d views with a storage offset no longer crash with an IndexError:
 
