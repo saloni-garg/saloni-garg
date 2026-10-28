@@ -26,6 +26,10 @@ And in TorchTPU's dynamic view decomposition, two fixes: a strided view can no l
 
 [![TorchTPU PR #5846](https://img.shields.io/badge/TorchTPU-PR%20%235846-2ea44f?style=flat-square&logo=github)](https://github.com/google-pytorch/torch_tpu/pull/5846) [![TorchTPU PR #5847](https://img.shields.io/badge/TorchTPU-PR%20%235847-2ea44f?style=flat-square&logo=github)](https://github.com/google-pytorch/torch_tpu/pull/5847)
 
+In NVIDIA Dynamo's profiler, a fix so SGLang workers launched with the `--tp-size` or `--pp-size` spellings keep their multinode placement instead of being sized as single-GPU instances, with the first unit tests for `set_multinode_config`:
+
+[![Dynamo PR%20%2317502](https://img.shields.io/badge/Dynamo-PR%20%2317502-2ea44f?style=flat-square&logo=github)](https://github.com/ai-dynamo/dynamo/pull/17502)
+
 ## Selected projects
 
 - gpu-train-debug: an RL environment for GPU training failure diagnosis, published on the Prime Intellect Hub in the Verifiers format. Dataset on [Hugging Face](https://huggingface.co/datasets/sluuu/gpu-train-debug).
